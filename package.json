@@ -1,0 +1,32 @@
+{
+  "name": "svg-to-png",
+  "version": "1.0.0",
+  "description": "Convert SVG to PNG using Sharp",
+  "main": "index.js",
+  "bin": {
+    "convert-png": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayanamitech/svg-to-png.git"
+  },
+  "author": "AyanamiTech <ayanami0330@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayanamitech/svg-to-png/issues"
+  },
+  "homepage": "https://github.com/ayanamitech/svg-to-png#readme",
+  "dependencies": {
+    "sharp": "^0.30.5",
+    "use-config-json": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  }
+}
