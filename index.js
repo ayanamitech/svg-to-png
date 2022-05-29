@@ -14,6 +14,8 @@ const supportedFiles = [
   '.svg',
   '.jpg',
   '.jpeg',
+  '.jfif',
+  '.gif',
   '.ico'
 ];
 
